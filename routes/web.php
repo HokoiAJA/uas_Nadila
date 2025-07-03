@@ -1,8 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ProductController;
+use App\Http\Controllers\OrderController;
 
-Route::get('/', [ProductController::class, 'index']);
 
-Route::resource('products', ProductController::class);
+Route::get('/', [OrderController::class, 'index']);
+
+Route::resource('products', OrderController::class);
+Route::resource('orders', OrderController::class);
