@@ -1,8 +1,21 @@
+{{-- filepath: c:\xamppLaravel\htdocs\uas_Abdi_Putra_Zulkarnain\resources\views\orders_create.blade.php --}}
 @extends('layouts.app')
 
 @section('content')
     <div class="container">
         <h1>Add Order</h1>
+
+        {{-- Tampilkan error validasi --}}
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <ul class="mb-0">
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
         <form action="{{ route('orders.store') }}" method="POST">
             @csrf
             <div class="mb-3">
