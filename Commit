@@ -3,3 +3,4 @@ Gunakan Bootstrap untuk tampilan antarmuka.
 Buat migration products sesuai dengan field di atas.
 Jalankan migration dan pastikan tabel tersedia di database.
 Buat model Product
+Buat route-resource products di web.php.
