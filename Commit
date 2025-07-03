@@ -8,3 +8,4 @@ Buat controller ProductController menggunakan –resource.
 Implementasikan semua method
 Buat tampilan untuk Menampilkan semua data (index), Menambah data (create), Mengedit data (edit), Menampilkan detail produk (show)
 Memperbaiki hasil Validasi
+Memperbaiki codingan
