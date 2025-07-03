@@ -2,3 +2,4 @@ Buat nama project uas_nama
 Gunakan Bootstrap untuk tampilan antarmuka.
 Buat migration products sesuai dengan field di atas.
 Jalankan migration dan pastikan tabel tersedia di database.
+Buat model Product
